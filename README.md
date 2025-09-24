@@ -32,19 +32,7 @@ A modern, secure, and multilingual password generator with animated background e
 
 ## 🚀 Live Demo
 
-Visit the live demo: [Password Generator Pro](https://foz12.github.io/password-generator-pro)
-
-## 📱 Screenshots
-
-### Desktop View
-![Desktop Screenshot](screenshots/desktop.png)
-
-### Mobile View
-![Mobile Screenshot](screenshots/mobile.png)
-
-### Different Languages
-![Arabic Interface](screenshots/arabic.png)
-![Chinese Interface](screenshots/chinese.png)
+Visit the live demo: [Password Generator Pro](https://imedkablavi.github.io/Password-Genrator/)
 
 ## 🛠️ Installation
 
@@ -186,9 +174,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Contact
 
-- **Author**: Foz12
-- **GitHub**: [@foz12](https://github.com/foz12)
-- **Project**: [Password Generator Pro](https://github.com/foz12/password-generator-pro)
+- **Author**: imedkablavi
+- **GitHub**: [@imedkablavi](https://github.com/imedkablavi/)
+- **Project**: [Password Generator Pro](https://github.com/imedkablavi/Password-Genrator)
 
 ## 🚀 Future Features
 
@@ -207,4 +195,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ⭐ **Star this repository if you found it helpful!** ⭐
 
-Made with ❤️ and ☕ by [Foz12](https://github.com/foz12)
+
+Made with ❤️ and ☕ by [imedkablavi](https://guns.lol/imedkablavi)
