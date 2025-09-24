@@ -1,0 +1,149 @@
+{
+  "name": "password-generator-pro",
+  "version": "2.0.0",
+  "description": "A modern, secure, and multilingual password generator with animated background effects and advanced features",
+  "main": "index.html",
+  "keywords": [
+    "password",
+    "generator",
+    "security",
+    "multilingual",
+    "encryption",
+    "random",
+    "crypto",
+    "web-app",
+    "javascript",
+    "html5",
+    "css3",
+    "bootstrap",
+    "responsive",
+    "mobile-friendly",
+    "translation",
+    "i18n",
+    "rtl",
+    "animation",
+    "modern-ui",
+    "glassmorphism"
+  ],
+  "author": {
+    "name": "Foz12",
+    "url": "https://github.com/foz12"
+  },
+  "contributors": [
+    {
+      "name": "Foz12",
+      "role": "Lead Developer"
+    }
+  ],
+  "license": "MIT",
+  "homepage": "https://foz12.github.io/password-generator-pro",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foz12/password-generator-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/foz12/password-generator-pro/issues"
+  },
+  "engines": {
+    "node": ">=14.0.0",
+    "npm": ">=6.0.0"
+  },
+  "scripts": {
+    "start": "echo 'Open index.html in your browser to run the application'",
+    "deploy": "echo 'Deploy by uploading all files to your web server'",
+    "lint": "echo 'Manual code review - no automated linting configured'",
+    "test": "echo 'Manual testing - open index.html and test all features'",
+    "validate": "echo 'Validate HTML, CSS, and JS files manually'",
+    "build": "echo 'No build process required - static files ready for deployment'"
+  },
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "jquery": "^3.5.1",
+    "font-awesome": "^4.7.0"
+  },
+  "devDependencies": {},
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead",
+    "Chrome >= 60",
+    "Firefox >= 55",
+    "Safari >= 11",
+    "Edge >= 79"
+  ],
+  "files": [
+    "index.html",
+    "css/",
+    "js/",
+    "icon/",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md",
+    "CONTRIBUTING.md"
+  ],
+  "directories": {
+    "lib": "js",
+    "doc": "."
+  },
+  "config": {
+    "port": "8080",
+    "host": "localhost"
+  },
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/your-username"
+  },
+  "features": {
+    "multilingual": {
+      "languages": [
+        "English",
+        "Arabic",
+        "Turkish", 
+        "German",
+        "French",
+        "Spanish",
+        "Italian",
+        "Portuguese",
+        "Chinese",
+        "Japanese"
+      ],
+      "rtl_support": true,
+      "auto_detection": true
+    },
+    "security": {
+      "crypto_api": true,
+      "strength_analysis": true,
+      "secure_storage": true
+    },
+    "ui": {
+      "animated_background": true,
+      "responsive_design": true,
+      "glassmorphism": true,
+      "dark_theme": true
+    },
+    "functionality": {
+      "password_history": true,
+      "keyboard_shortcuts": true,
+      "settings_persistence": true,
+      "copy_to_clipboard": true
+    }
+  },
+  "technical_specs": {
+    "min_password_length": 4,
+    "max_password_length": 50,
+    "character_sets": [
+      "uppercase",
+      "lowercase", 
+      "numbers",
+      "symbols"
+    ],
+    "storage": "localStorage",
+    "crypto": "Web Crypto API"
+  },
+  "deployment": {
+    "type": "static",
+    "requirements": "Web server with HTTPS support",
+    "cdn_ready": true,
+    "github_pages": true
+  }
+}
