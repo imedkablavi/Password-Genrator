@@ -1,40 +1,40 @@
-# 🔐 Password Generator Pro
+# Password Generator Pro
 
 A modern, secure, and multilingual password generator with animated background effects and advanced features.
 
-## ✨ Features
+## Features
 
-### 🔒 Security Features
+### Security Features
 - **Cryptographically Secure**: Uses Web Crypto API for true randomness
 - **Multiple Character Sets**: Uppercase, lowercase, numbers, and symbols
 - **Password Strength Indicator**: Real-time strength analysis with visual feedback
 - **Secure Generation**: No server-side storage, everything happens locally
 
-### 🌍 Multilingual Support
+### Multilingual Support
 - **10 Languages Supported**: English, Arabic, Turkish, German, French, Spanish, Italian, Portuguese, Chinese, Japanese
 - **Auto Language Detection**: Automatically detects browser language
 - **RTL Support**: Full right-to-left text support for Arabic
 - **Dynamic Translation**: Real-time language switching
 
-### 🎨 Modern UI/UX
+### Modern UI/UX
 - **Animated Background**: Dynamic color blobs with smooth animations
 - **Responsive Design**: Works perfectly on all devices (desktop, tablet, mobile)
 - **Glass Morphism**: Modern glassmorphism design elements
 - **Smooth Animations**: Fluid transitions and hover effects
 - **Dark Theme**: Eye-friendly dark color scheme
 
-### 📊 Advanced Features
+### Advanced Features
 - **Password History**: Local storage of previously generated passwords
 - **Customizable Length**: 4-50 characters range
 - **Copy to Clipboard**: One-click copying with visual feedback
 - **Keyboard Shortcuts**: Quick generation with Ctrl+G, copy with Ctrl+C
 - **Settings Persistence**: Remembers your preferences
 
-## 🚀 Live Demo
+## Live Demo
 
 Visit the live demo: [Password Generator Pro](https://imedkablavi.github.io/Password-Genrator/)
 
-## 🛠️ Installation
+## Installation
 
 ### Option 1: Direct Download
 1. Download or clone this repository
@@ -50,7 +50,7 @@ cd password-generator-pro
 ### Option 3: Deploy to Web Server
 Upload all files to your web server and access via your domain.
 
-## 🏗️ Project Structure
+## Project Structure
 
 ```
 password-generator-pro/
@@ -69,17 +69,17 @@ password-generator-pro/
 └── README.md             # Project documentation
 ```
 
-## 💻 Technologies Used
+## Technologies Used
 
 - **Frontend**: HTML5, CSS3, JavaScript (ES6+)
 - **Frameworks**: Bootstrap 4.x
-- **Libraries**: 
+- **Libraries**:
   - jQuery 3.5.1
   - Font Awesome 5.12.1
 - **APIs**: Web Crypto API for secure randomness
 - **Storage**: Local Storage for settings and history
 
-## 🔧 Configuration
+## Configuration
 
 ### Customizing Languages
 Edit `js/translations.js` to add new languages or modify existing translations:
@@ -105,7 +105,7 @@ const charset = {
 };
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Changing Animation Colors
 Edit the blob colors in `css/app.css`:
@@ -125,7 +125,7 @@ Adjust animation duration:
 }
 ```
 
-## 🔐 Security Notes
+## Security Notes
 
 - All password generation happens client-side
 - No passwords are transmitted to any server
@@ -133,17 +133,17 @@ Adjust animation duration:
 - History is stored locally in your browser only
 - No analytics or tracking implemented
 
-## 🌟 Browser Support
+## Browser Support
 
 | Browser | Version | Status |
 |---------|---------|--------|
-| Chrome  | 60+     | ✅ Full Support |
-| Firefox | 55+     | ✅ Full Support |
-| Safari  | 11+     | ✅ Full Support |
-| Edge    | 79+     | ✅ Full Support |
-| Opera   | 47+     | ✅ Full Support |
+| Chrome  | 60+     |  Full Support |
+| Firefox | 55+     |  Full Support |
+| Safari  | 11+     |  Full Support |
+| Edge    | 79+     |  Full Support |
+| Opera   | 47+     |  Full Support |
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -160,11 +160,11 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 3. Test RTL support if needed
 4. Update README with new language
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - [Bootstrap](https://getbootstrap.com/) for the CSS framework
 - [Font Awesome](https://fontawesome.com/) for icons
@@ -172,13 +172,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Web Crypto API for secure randomness
 - All contributors and users of this project
 
-## 📞 Contact
+## Contact
 
 - **Author**: imedkablavi
 - **GitHub**: [@imedkablavi](https://github.com/imedkablavi/)
 - **Project**: [Password Generator Pro](https://github.com/imedkablavi/Password-Genrator)
 
-## 🚀 Future Features
+## Future Features
 
 - [ ] Export passwords to various formats (CSV, JSON)
 - [ ] Password strength recommendations
@@ -196,4 +196,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ⭐ **Star this repository if you found it helpful!** ⭐
 
 
-Made with ❤️ and ☕ by [imedkablavi](https://guns.lol/imedkablavi)
+Made with  and  by [imedkablavi](https://guns.lol/imedkablavi)
