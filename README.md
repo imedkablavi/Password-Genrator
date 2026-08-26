@@ -1,88 +1,85 @@
 # Password Generator Pro
 
-A modern, secure, and multilingual password generator with animated background effects and advanced features.
+A browser-based password generator with multilingual support, local settings, and client-side password generation.
 
 ## Features
 
-### Security Features
-- **Cryptographically Secure**: Uses Web Crypto API for true randomness
-- **Multiple Character Sets**: Uppercase, lowercase, numbers, and symbols
-- **Password Strength Indicator**: Real-time strength analysis with visual feedback
-- **Secure Generation**: No server-side storage, everything happens locally
+### Security
+- Uses the Web Crypto API for random generation
+- Supports uppercase, lowercase, numbers, and symbols
+- Includes a password strength indicator
+- Password generation runs entirely in the browser
 
-### Multilingual Support
-- **10 Languages Supported**: English, Arabic, Turkish, German, French, Spanish, Italian, Portuguese, Chinese, Japanese
-- **Auto Language Detection**: Automatically detects browser language
-- **RTL Support**: Full right-to-left text support for Arabic
-- **Dynamic Translation**: Real-time language switching
+### Languages
+- Supports English, Arabic, Turkish, German, French, Spanish, Italian, Portuguese, Chinese, and Japanese
+- Detects the browser language automatically
+- Supports right-to-left layout for Arabic
+- Allows language switching without reloading the page
 
-### Modern UI/UX
-- **Animated Background**: Dynamic color blobs with smooth animations
-- **Responsive Design**: Works perfectly on all devices (desktop, tablet, mobile)
-- **Glass Morphism**: Modern glassmorphism design elements
-- **Smooth Animations**: Fluid transitions and hover effects
-- **Dark Theme**: Eye-friendly dark color scheme
+### Interface
+- Animated background
+- Responsive layout for desktop, tablet, and mobile
+- Dark theme
+- Hover and transition effects
 
-### Advanced Features
-- **Password History**: Local storage of previously generated passwords
-- **Customizable Length**: 4-50 characters range
-- **Copy to Clipboard**: One-click copying with visual feedback
-- **Keyboard Shortcuts**: Quick generation with Ctrl+G, copy with Ctrl+C
-- **Settings Persistence**: Remembers your preferences
+### Other features
+- Password history stored in local storage
+- Configurable length from 4 to 50 characters
+- Copy to clipboard
+- Keyboard shortcuts: Ctrl+G to generate and Ctrl+C to copy
+- Persistent settings
 
 ## Live Demo
 
-Visit the live demo: [Password Generator Pro](https://imedkablavi.github.io/Password-Genrator/)
+[Password Generator Pro](https://imedkablavi.github.io/Password-Genrator/)
 
 ## Installation
 
-### Option 1: Direct Download
-1. Download or clone this repository
-2. Open `index.html` in your web browser
-3. Start generating secure passwords!
+### Direct use
+1. Download or clone this repository.
+2. Open `index.html` in a web browser.
 
-### Option 2: Clone Repository
+### Clone the repository
 ```bash
-git clone https://github.com/foz12/password-generator-pro.git
-cd password-generator-pro
+git clone https://github.com/imedkablavi/Password-Genrator.git
+cd Password-Genrator
 ```
 
-### Option 3: Deploy to Web Server
-Upload all files to your web server and access via your domain.
+### Deploy to a web server
+Upload the repository files to your web server and serve `index.html`.
 
 ## Project Structure
 
-```
+```text
 password-generator-pro/
-├── index.html              # Main HTML file
+├── index.html
 ├── css/
-│   ├── app.css            # Custom styles with animations
-│   └── bootstrap.css      # Bootstrap framework
+│   ├── app.css
+│   └── bootstrap.css
 ├── js/
-│   ├── password.js        # Main password generation logic
-│   ├── translations.js    # Multi-language support
-│   ├── bootstrap.js       # Bootstrap JavaScript
-│   └── jquery-3.5.1.min.js # jQuery library
+│   ├── password.js
+│   ├── translations.js
+│   ├── bootstrap.js
+│   └── jquery-3.5.1.min.js
 ├── icon/
-│   └── password.png       # Favicon
-├── screenshots/           # Project screenshots
-└── README.md             # Project documentation
+│   └── password.png
+├── screenshots/
+└── README.md
 ```
 
-## Technologies Used
+## Technologies
 
-- **Frontend**: HTML5, CSS3, JavaScript (ES6+)
-- **Frameworks**: Bootstrap 4.x
-- **Libraries**:
-  - jQuery 3.5.1
-  - Font Awesome 5.12.1
-- **APIs**: Web Crypto API for secure randomness
-- **Storage**: Local Storage for settings and history
+- HTML5, CSS3, and JavaScript
+- Bootstrap 4.x
+- jQuery 3.5.1
+- Font Awesome 5.12.1
+- Web Crypto API
+- Local Storage
 
 ## Configuration
 
-### Customizing Languages
-Edit `js/translations.js` to add new languages or modify existing translations:
+### Add or edit a language
+Edit `js/translations.js`:
 
 ```javascript
 const translations = {
@@ -93,8 +90,8 @@ const translations = {
 };
 ```
 
-### Customizing Password Rules
-Modify password generation rules in `js/password.js`:
+### Change password rules
+Edit `js/password.js`:
 
 ```javascript
 const charset = {
@@ -107,7 +104,7 @@ const charset = {
 
 ## Customization
 
-### Changing Animation Colors
+### Change animation colors
 Edit the blob colors in `css/app.css`:
 
 ```css
@@ -116,84 +113,69 @@ Edit the blob colors in `css/app.css`:
 }
 ```
 
-### Modifying Animation Speed
-Adjust animation duration:
+### Change animation speed
+Adjust the animation duration:
 
 ```css
 .blob-1 {
-    animation: float1 25s infinite ease-in-out; /* Change 25s to your preferred speed */
+    animation: float1 25s infinite ease-in-out;
 }
 ```
 
 ## Security Notes
 
-- All password generation happens client-side
-- No passwords are transmitted to any server
-- Uses cryptographically secure random number generation
-- History is stored locally in your browser only
-- No analytics or tracking implemented
+- Password generation happens client-side.
+- Passwords are not sent to a server by this application.
+- Random generation uses the Web Crypto API.
+- History is stored in the browser's local storage.
+- The project does not include analytics or tracking.
 
 ## Browser Support
 
 | Browser | Version | Status |
-|---------|---------|--------|
-| Chrome  | 60+     |  Full Support |
-| Firefox | 55+     |  Full Support |
-| Safari  | 11+     |  Full Support |
-| Edge    | 79+     |  Full Support |
-| Opera   | 47+     |  Full Support |
+| --- | --- | --- |
+| Chrome | 60+ | Supported |
+| Firefox | 55+ | Supported |
+| Safari | 11+ | Supported |
+| Edge | 79+ | Supported |
+| Opera | 47+ | Supported |
 
 ## Contributing
 
-Contributions are welcome! Please feel free to submit a Pull Request.
+Pull requests are welcome.
 
-### Development Setup
-1. Fork the repository
-2. Clone your fork
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
+### Development setup
+1. Fork the repository.
+2. Clone your fork.
+3. Make your changes.
+4. Test them locally.
+5. Open a pull request.
 
-### Adding New Languages
-1. Add translation object to `js/translations.js`
-2. Update language detection in `detectLanguage()` function
-3. Test RTL support if needed
-4. Update README with new language
+### Adding a language
+1. Add the translation object to `js/translations.js`.
+2. Update language detection in `detectLanguage()` if needed.
+3. Test right-to-left layout for RTL languages.
+4. Update the supported-language list in this README.
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Acknowledgments
-
-- [Bootstrap](https://getbootstrap.com/) for the CSS framework
-- [Font Awesome](https://fontawesome.com/) for icons
-- [jQuery](https://jquery.com/) for DOM manipulation
-- Web Crypto API for secure randomness
-- All contributors and users of this project
+This project is licensed under the MIT License. See [LICENSE](LICENSE).
 
 ## Contact
 
-- **Author**: imedkablavi
-- **GitHub**: [@imedkablavi](https://github.com/imedkablavi/)
-- **Project**: [Password Generator Pro](https://github.com/imedkablavi/Password-Genrator)
+- Author: imedkablavi
+- GitHub: [@imedkablavi](https://github.com/imedkablavi/)
+- Repository: [Password Generator Pro](https://github.com/imedkablavi/Password-Genrator)
 
-## Future Features
+## Planned Work
 
-- [ ] Export passwords to various formats (CSV, JSON)
+- [ ] Export passwords as CSV or JSON
 - [ ] Password strength recommendations
 - [ ] Pronunciation guide for generated passwords
 - [ ] Custom character set builder
 - [ ] Password pattern templates
-- [ ] Browser extension version
-- [ ] Mobile app (React Native)
+- [ ] Browser extension
+- [ ] Mobile application
 - [ ] Password breach checking
 - [ ] Team sharing features
-- [ ] API for developers
-
----
-
-⭐ **Star this repository if you found it helpful!** ⭐
-
-
-Made with  and  by [imedkablavi](https://guns.lol/imedkablavi)
+- [ ] Developer API
